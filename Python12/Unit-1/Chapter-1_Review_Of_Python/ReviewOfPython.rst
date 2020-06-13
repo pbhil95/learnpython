@@ -39,4 +39,6 @@ output of it::
 Script Mode
 -----------
 
-In script mode, we type Python program in a file and then use interpreter to execute the content of the file. Working in interactive mode is convenient for beginners and for testing small pieces of code, as one can test them immediately. But for coding of more than few lines, we should always save our code so that it can be modified and reused.
+In script mode, we type Python program in a file and then use interpreter to execute the content of the file. Working in interactive mode is convenient for beginners and for testing small pieces of code, as one can test them immediately. But for coding of more than few lines, we should always save our code so that it can be **modified and reused**.
+Python, in interactive mode, is good enough to learn, experiment or explore, but its only drawback is that
+we cannot save the statements and have to retype all the statements once again to re-run them.
