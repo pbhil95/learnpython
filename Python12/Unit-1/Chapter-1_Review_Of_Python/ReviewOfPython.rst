@@ -8,7 +8,7 @@ Learning Objectives:
 At the end of this chapter the students will be able to understand:
 
 * :ref:`interactive-mode`
-* Script Mode
+* :ref:`script-mode`
 * Data Types
 * Functions in Python
 * Sequential Statement
@@ -33,3 +33,8 @@ output of it::
        Type "help", "copyright", "credits" or "license" for more information.
        >>>3+4
        7
+
+Script Mode
+-----------
+
+This is Script Mode.
