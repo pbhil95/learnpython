@@ -39,4 +39,4 @@ output of it::
 Script Mode
 -----------
 
-This is Script Mode.
+In script mode, we type Python program in a file and then use interpreter to execute the content of the file. Working in interactive mode is convenient for beginners and for testing small pieces of code, as one can test them immediately. But for coding of more than few lines, we should always save our code so that it can be modified and reused.
