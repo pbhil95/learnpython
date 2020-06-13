@@ -19,6 +19,7 @@ release = ''
 html_title = 'Home'
 
 html_show_sphinx = False
+
 html_add_permalinks = ""
 # -- General configuration ---------------------------------------------------
 
@@ -87,5 +88,5 @@ html_static_path = ['_static']
 #
 # html_sidebars = {}
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-html_theme_path = os.path.join(BASE_DIR, 'learnpython')
+html_theme_path = [os.path.join(BASE_DIR, 'learnpython')]
 html_theme = 'cloud'
