@@ -34,6 +34,8 @@ output of it::
        >>>3+4
        7
 
+.. _script-mode:
+
 Script Mode
 -----------
 
