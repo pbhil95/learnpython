@@ -1019,6 +1019,11 @@ div#searchbox form > div {
     margin-right: -0.4em;
 }
 
+div.sphinxsidebar input
+{
+    margin-bottom: 10px;
+}
+
 div.sphinxsidebar input,
 h1#search-documentation ~ form input
 {
