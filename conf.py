@@ -30,9 +30,7 @@ html_add_permalinks = ""
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = [
-
-]
+extensions = []
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
@@ -88,5 +86,9 @@ html_static_path = ['_static']
 #
 # html_sidebars = {}
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+#html_theme_path = [os.path.join(BASE_DIR, 'learnpython')]
 html_theme_path = os.path.join(BASE_DIR, 'learnpython')
 html_theme = 'cloud'
+
+html_css_files = ['css/my.css',
+                  'css/hacks.css', 'console-tabs.css', 'pygments.css']

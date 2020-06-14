@@ -41,4 +41,22 @@ Script Mode
 
 In script mode, we type Python program in a file and then use interpreter to execute the content of the file. Working in interactive mode is convenient for beginners and for testing small pieces of code, as one can test them immediately. But for coding of more than few lines, we should always save our code so that it can be **modified and reused**.
 
-.. note:: Python, in `interactive mode`_, is good enough to learn, experiment or explore, but its only drawback is that we cannot save the statements and have to retype all the statements once again to re-run them.
+.. note::
+
+    | Python, in `interactive mode`_, is good enough to learn, experiment or explore, but its only drawback is that we cannot save the statements and have to retype all the statements once again to re-run them.
+
+.. code-block:: python
+    :caption: sum.py
+
+    num1 = int(input("Enter first Number :"))
+    num2 = int(input("Enter Second Number: "))
+    sum = num1+num2
+    print("Sum of two number is :", sum)
+
+.. container:: output
+
+    | **OUTPUT :**
+    | Enter first Number   :  5
+    | Enter Second Number  :  8
+    | Sum of two number is :  13
+
