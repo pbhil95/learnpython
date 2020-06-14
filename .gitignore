@@ -1,4 +1,4 @@
 _build
-_static
 .vscode
 django-docs-3.0-en
+*.py

@@ -90,5 +90,4 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 html_theme_path = os.path.join(BASE_DIR, 'learnpython')
 html_theme = 'cloud'
 
-html_css_files = ['css/my.css',
-                  'css/hacks.css', 'console-tabs.css', 'pygments.css']
+html_css_files = ['css/my.css', 'css/hacks.css']

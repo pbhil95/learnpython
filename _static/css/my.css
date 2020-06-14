@@ -1,0 +1,17 @@
+div.code-block-caption {
+    color: white;
+    background-color: #234F32;
+    margin: 0;
+    padding: 2px 5px;
+    width: 100%;
+    font-family: monospace;
+    font-size: small;
+    line-height: 1.3em;
+}
+
+.output {
+    background-color: #e3e0df;
+    margin: 15px;
+    padding-left: 10px;
+    border: 1px solid #c8c7c7;
+}
