@@ -11,12 +11,12 @@ div.code-block-caption {
 
 .output {
     background-color: #e3e0df;
-    width: 100%;
     font-family: monospace;
     font-size: small;
     line-height: 1.3em;
     border: 1px solid #c8c7c7;
     padding: 5px 10px;
+    margin: 15px;
 }
 
 
