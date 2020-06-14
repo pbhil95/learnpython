@@ -1,7 +1,7 @@
 div.code-block-caption {
     color: white;
     background-color: #234F32;
-    margin-bottom: -22px;
+    /* margin-bottom: -22px; */
     padding: 2px 5px;
     width: 100%;
     font-family: monospace;
