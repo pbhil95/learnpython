@@ -91,5 +91,17 @@ html_theme_path = os.path.join(BASE_DIR, 'learnpython')
 html_theme = 'cloud'
 
 html_css_files = ['css/my.css', 'css/hacks.css', 'css/basic.css']
+latex_elements = {
+    'inputenc': '',
+    'utf8extra': '',
+    'preamble': '''
+
+\usepackage{fontspec}
+\setsansfont{Arial}
+\setromanfont{Arial}
+\setmonofont{DejaVu Sans Mono}
+''',
+}
+
 
 latex_engine = 'xelatex'
