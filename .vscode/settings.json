@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "C:\\Users\\Pankaj\\envs\\mywebhosting\\Scripts\\python.exe"
+    "python.pythonPath": "C:\\Users\\Pankaj\\envs\\mywebhosting\\Scripts\\python.exe",
+    "restructuredtext.confPath": "${workspaceFolder}"
 }
